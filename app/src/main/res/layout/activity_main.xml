@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:showDividers="middle"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/bt_step1"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="step1"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/bt_step1_think"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="step1 think"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/bt_step2"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="step2"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/bt_step3"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="step3"
+        android:textAllCaps="false" />
+
+</LinearLayout>
